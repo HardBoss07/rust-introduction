@@ -1,0 +1,9 @@
+# Ignore Cargo build artifacts
+**/target/
+**/debug/
+**/release/
+**/Cargo.lock
+
+# Ignore Rust intermediate files
+**/*.rs.bk
+**/*.rmeta
